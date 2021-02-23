@@ -1,0 +1,17 @@
+{
+    "description": "Shows list menu for breakfast, launch, dinner",
+    "icons": [
+      {
+        "src": "/img/icons/icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "name": "FoodAja",
+    "short_name": "FoodAja",
+    "start_url": "/index.html",
+    "display": "fullscreen",
+    "background_color": "#FFE9D2",
+    "theme_color": "#FFE1C4"
+  }
+  
