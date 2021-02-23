@@ -2,7 +2,7 @@
     "name": "FoodAja",
     "short_name": "FoodAja",
     "start_url": "./index.html",
-    "display": "browser",
+    "display": "fullscreen",
     "background_color": "#FFE9D2",
     "theme_color": "#FFE1C4",
     "orientation": "portrait-primary",
