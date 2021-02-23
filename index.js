@@ -1,3 +1,12 @@
+// Register service worker to control making site work offline
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+    .register('/example-pwa/sw.js')
+    .then(() => { console.log('Service Worker Registered'); });
+}
+
+// Code to handle install prompt on desktop
+
 let deferredPrompt;
 var addBtn = document.querySelector(".add-button");
 addBtn.style.display = 'none';
@@ -11,7 +20,6 @@ window.addEventListener('beforeinstallprompt', (e) => {
     addBtn.style.display = 'block';
   
     addBtn.addEventListener('click', (e) => {
-        console.log('click', e);
       // hide our user interface that shows our A2HS button
       addBtn.style.display = 'none';
       // Show the prompt
